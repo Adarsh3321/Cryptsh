@@ -14,10 +14,10 @@ def main():
 
     global con, cursor
     con=psycopg2.connect(
-        user="postgres.nojyfntxgshnhpfpymin",
-        password="Legion@150",
-        host="aws-0-ap-south-1.pooler.supabase.com",
-        port="6543",
+        user="",
+        password="",
+        host="",
+        port="",
         dbname="postgres"
     )
     cursor=con.cursor()
